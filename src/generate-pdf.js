@@ -7,7 +7,7 @@ const reportUrl = 'http://localhost:3000';
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto(reportUrl);
+  await page.goto(reportUrl, { waitUntil: 'networkidle0' });
 
   const dir = path.join(__dirname, '..', 'tmp');
 
