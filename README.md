@@ -53,5 +53,3 @@ The PDF file will be created in tmp folder
 Here's an example of a generated PDF
 
 ![image](https://user-images.githubusercontent.com/158855/143068092-7298ef5f-9902-4151-b420-7f3ab30926e8.png)
-
-The PDF file will be created in tmp folder
